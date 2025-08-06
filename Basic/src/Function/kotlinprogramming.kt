@@ -6,4 +6,5 @@ fun main(){
 fun add(a:Int,b:Int):Int{
     println("result ${a+b}")
     return a+b
+
 }
