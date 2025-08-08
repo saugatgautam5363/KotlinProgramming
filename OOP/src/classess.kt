@@ -6,5 +6,5 @@ class Student(val name: String,val age: Int){
 }
 fun main(){
     val person = Student("santosh",20)
-    person.greet();
+    person.greet()
 }
