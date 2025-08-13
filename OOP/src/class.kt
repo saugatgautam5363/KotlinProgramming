@@ -1,4 +1,4 @@
-class Person(val name: String,val age: Int){
+open class Person(val name: String, val age: Int){
     fun greet(){
         println("Hello my name is $name and I am $age year old.")
     }
