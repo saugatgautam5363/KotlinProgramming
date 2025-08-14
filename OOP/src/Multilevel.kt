@@ -3,18 +3,18 @@ open class Persons{
         println("Eat a food...")
     }
 }
-open class Man : Persons(){
+open class Man(name: Unit) : Persons(){
     fun run(){
         println("Running......")
     }
 }
-class Woman : Man(){
+class Woman : Man(name) {
     override fun eat(){
         println("Woman eat a food...")
     }
 }
 fun main(){
-    val man = Man()
+    val man = Man(name)
     val woman = Woman();
     man.eat()
     woman.eat()
