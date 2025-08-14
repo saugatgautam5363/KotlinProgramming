@@ -7,6 +7,7 @@ class Mans(name: String) : people(){
     override fun name(name: String) {
         println("My name is $name")
     }
+
 }
 
 fun main(){
