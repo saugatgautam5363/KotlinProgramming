@@ -15,7 +15,6 @@ fun main(){
         total += mark
     }
     val average = total.toDouble() / numSub
-
     val grade = when{
         average >= 90 -> "A+"
         average >= 80 -> "A"
